@@ -1,0 +1,93 @@
+/*Princess Sofia, Wednesday, Spooky*/
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+/*Nunito, Sans, Round, Liked*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/*Sanchez, Serif, Article, Title*/
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+/*Outfit, Sans, Comfortaa, Sharp Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+/* Lora, Serif, Article, Soft*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* Cormorant Garamond, Serif, Article, Sharp*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+/* Kelly Slab, Serif, Cyber, Geometric */
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+/* Send Flowers, Cursive, Swirly, Tea Party*/
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+
+.princesssofia {
+    font-family: Princess Sofia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: violet;
+}
+
+.nunito {
+    font-family: Nunito, sans-serif;
+    background-color: lightgray;
+    color: black;
+}
+
+.sanchez {
+    font-family: Sanchez, serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.outfit {
+    font-family: Outfit, sans-serif;
+    background-color: rgb(255, 217, 147);
+    color: black;
+}
+
+.cormorantgaramond {
+    font-family: Cormorant Garamond, serif;
+    background-color: rgb(178, 225, 255);
+    color: rgb(12, 53, 78);
+}
+
+.lora {
+    font-family: Lora, serif;
+    background-color: rgb(72, 0, 72);
+    color: rgb(255, 185, 255);
+}
+
+.kellyslab {
+    font-family: Kelly Slab, serif;
+    background-color: black;
+    color: rgb(200, 223, 255);
+}
+
+.sendflowers {
+    font-family: "Send Flowers", sans-serif;
+    background-color: pink;
+    color: rgb(93, 44, 52);
+}
+
+/* Base CSS */
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+div {
+    padding: 20px;
+    width: 1fr;
+    margin: 1px;
+}
+
+h1 {
+    margin: 0;
+    padding: 1%;
+}
