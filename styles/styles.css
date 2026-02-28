@@ -113,5 +113,12 @@ p {
     padding: 10px;
 }
 #form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--secondary);
+}
+#fname, #lname, #pnum, #email{
+    display: block;
+    margin-bottom: 10px;
 }
