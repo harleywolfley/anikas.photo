@@ -118,7 +118,10 @@ p {
     align-items: center;
     background-color: var(--secondary);
 }
-#fname, #lname, #pnum, #email{
+#fname, #lname, #pnum, #email, #submit{
     display: block;
     margin-bottom: 10px;
+}
+#submit {
+    margin: auto;
 }
