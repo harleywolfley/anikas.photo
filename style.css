@@ -8,7 +8,7 @@ body {
 
 header {
     margin: 0;
-    padding: 1%;
+    padding: 0;
     background-color: aliceblue;
 }
 
@@ -18,10 +18,22 @@ h1 {
     color: #3d3d3d;
 }
 
-header p {
+header ul {
     margin: 0;
     padding: 1% 0;
     color: #3d3d3d;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    padding: 1%;
+}
+
+.logo {
+    width: 5%;
+    padding: 0;
+    margin: 0;
 }
 
 main {
