@@ -21,9 +21,6 @@ const pictures = [
     },
 ]
 
-function galleryImg(pictures) {
-    return ``
-}
-
 const galleryInput = document.querySelector("#gallery");
-galleryInput.innerHTML = galleryImg(pictures)
+
+galleryInput.innerHTML = pictures.map(pictures => `<a href="${pictures.link}"><img class="gallery-images" src="${pictures.img}" alt="${pictures.alt}"></a>`).join("");
