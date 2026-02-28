@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Ephesis&family=Lora:ital,wght@0,400..700;1,400..700&family=Petemoss&display=swap');
+/* Corinthia - Cursive, Lora - Print */
+
 :root {
     --primary: #f5eee9;
     --secondary: #e7d5c8;
@@ -7,11 +10,17 @@
     --header-bckgrd: var(--tertiary);
     --header-color: var(--primary);
     --main-bckgrd: var(--primary);
+    --dark-text: var(--accent);
+    --light-text: var(--primary);
+
+    --cursive: "Corinthia", sans-serif;
+    --print: "Lora", serif;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--primary);
 }
 
 header {
@@ -69,6 +78,7 @@ article div {
 footer {
     height: 300px;
     width: 100%;
+    background-color: var(--header-bckgrd);
 }
 
 #footer{
@@ -79,6 +89,8 @@ footer {
     height: 200px;
     width: 80%;
     max-width: 900px;
+    background-color: var(--secondary);
+    color: var(--dark-text);
 }
 
 #anika img {
@@ -90,7 +102,7 @@ footer {
 }
 
 h3, p, #anika, #form {
-    border: 5px solid black;
+    border: 5px solid var(--accent);
 }
 
 h3 {
